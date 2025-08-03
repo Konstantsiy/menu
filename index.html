@@ -1,1 +1,157 @@
-<h1>My menu</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Lovishly+Yours&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title style="font-family: 'Lovishly Yours', cursive;" >Minimal Menu</title>
+    <style>
+        body {
+            background-image: url('./background.png');
+            margin: 0;
+            padding: 2rem;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            /*background-color: #e8d6f4; !* soft lilac tone *!*/
+            /*color: #000000;*/
+            line-height: 1.6;
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            letter-spacing: 1px;
+        }
+
+        .menu-card {
+            align-content: center;
+            text-align: center;
+            background-color: white;
+            padding: 2rem 3rem;
+            max-width: 600px;
+            border-radius: 3px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+
+        .dish {
+            /*border-bottom: 1px solid #cccccc;*/
+            padding: 2rem 0;
+        }
+
+        .dish-title {
+            font-family: 'Lovishly Yours', cursive;
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 0.75rem;
+        }
+
+        .dish-desc {
+            font-size: 0.95rem;
+            color: #444;
+            margin-bottom: 0.75rem;
+            white-space: pre-line;
+        }
+
+        .dish-ingredients {
+            font-style: italic;
+            font-size: 0.95rem;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .dish-additions {
+            font-size: 0.95rem;
+            color: #444;
+            display: inline-block;
+            text-align: left;
+            list-style-type: "+";
+            margin: 1px 0;
+            opacity: 0.7;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .footer p {
+            font-family: 'Lovishly Yours', cursive;
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .footer img {
+            max-width: 500px;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+<div class="menu-card">
+    <h1>Breakfast</h1>
+    <h3>you're lucky, because this menu is available only to you, my sweet (“⌒∇⌒")</h3>
+
+    <div class="dish">
+        <div class="dish-title">Classical Shakshuka</div>
+        <div class="dish-desc">My favorite and simplest, but always especially delicious dish.
+            A classic North African and Middle Eastern breakfast.</div>
+        <div class="dish-ingredients">Poached / fried eggs, red pepper, cherry tomatoes, garlic, onion, poached eggs, haloumi cheese, baguette</div>
+        <ul class="dish-additions">
+            <li>bacon</li>
+            <li>hummus</li>
+            <li>mushrooms</li>
+            <li>smoked tomatoes</li>
+            <li>baguette with spread</li>
+        </ul>
+    </div>
+
+    <div class="dish">
+        <div class="dish-title">Turkish Eggs</div>
+        <div class="dish-desc">If I hadn't visited Być Może, I would never have learned about the Greek yogurt.
+            I tried to make it just as delicious!</div>
+        <div class="dish-ingredients">Poached eggs, Greek yogutr, extra virgin olive oil, barley, pepper, baguette</div>
+    </div>
+
+    <div class="dish">
+        <div class="dish-title">Asparagus in Greek sauce</div>
+        <div class="dish-desc">There is no such thing as a lot of Greek sauce, and I am ready to sell my soul to the devil for garlic asparagus, so I highly recommend it!</div>
+        <div class="dish-ingredients">Asparagus, Greek sauce, garlic, dill, paprika, baguette</div>
+        <ul class="dish-additions">
+            <li>bacon</li>
+            <li>mushrooms</li>
+            <li>smoked tomatoes</li>
+            <li>baguette with spread</li>
+        </ul>
+    </div>
+
+    <div class="dish">
+        <div class="dish-title">Avocado Toast</div>
+        <div class="dish-desc">How do you do, fellow millennials?</div>
+        <div class="dish-ingredients">Calories calories calories, energy and my love</div>
+        <ul class="dish-additions">
+            <li>bacon</li>
+            <li>shrimp</li>
+            <li>arugula</li>
+            <li>scramble eggs</li>
+            <li>cottage cheese</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>Made with love</p>
+        <img src="./bottom-image-white.png" alt="Heart on a plate illustration" />
+    </div>
+</div>
+</body>
+</html>
